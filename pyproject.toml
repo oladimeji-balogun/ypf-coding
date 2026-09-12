@@ -1,0 +1,20 @@
+[project]
+name = "ypf-coding"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Oladimeji",email = "boladimeji834@gmail.com"}
+]
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "faker (>=40.37.0,<41.0.0)",
+    "fastapi (>=0.141.1,<0.142.0)",
+    "uvicorn (>=0.52.4,<0.53.0)",
+    "ipykernel (>=7.3.0,<8.0.0)",
+    "notebook (>=7.6.2,<8.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
